@@ -60,7 +60,7 @@ MATCH (a:Kenan {name:"赤井秀一"}),(b:Kenan {name:"柯南"}) MERGE(a)-[:寄�
 MATCH (a:Kenan {name:"柯南"}),(b:Kenan {name:"赤井秀一"}) MERGE(a)-[:合作]->(b)
 ```
 
-![展示图]()
+![展示图](show.jpg)
 
 
 
